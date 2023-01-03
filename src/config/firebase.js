@@ -13,7 +13,7 @@ import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
 
-  apiKey: process.env.API_KEY ,
+  apiKey: process.env.REACT_APP_FIREBASE_KEY ,
 
   authDomain: process.env.AUTH_DOMAIN,
 
